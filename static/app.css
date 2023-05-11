@@ -1,5 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Red+Hat+Display:wght@300;400;700&display=swap');
 :root {
-	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	--font-color: #f6f1f1;
+	--primary-color: #ffa3fd;
+	--secondary-color: #e384ff;
+	--terciary-color: #865dff;
+	--bg-color: #191825;
+	--primary-font: 'Red Hat Display', sans-serif;
+	--secondary-font: 'Indie Flower', cursive;
+
+	font-family: var(--primary-font);
+}
+
+h1,
+h2,
+p {
+	text-align: center;
 }
 .scrollbar {
 	background-color: grey;
